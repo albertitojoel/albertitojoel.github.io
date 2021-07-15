@@ -1,0 +1,57 @@
+
+body{
+	background:  url(imagenes/vas.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h1{
+	text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-shadow: 2px 2px #FF0000;
+	color: white;
+	padding: 0.5em;
+	text-align: center;
+	width: 100%;
+}
+
+li{
+	border: 1px solid #C70039;
+	width: 58%;
+	text-align: center;
+	background-image: url(imagenes/unnamed.jpg);
+	font-weight: bold;
+	border-radius: 15px;
+	padding: 8px ;
+	margin:  2px auto ;
+}
+
+a{
+
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+
+div.fixed {
+  position: fixed ;
+  font-weight: bold;
+  text-align: left;
+  color: #F8F8FF;
+  width: 25% auto;
+  bottom: 3px;
+  border: 5px solid;
+  border-image: url(imagenes/border.png) 30 stretch;
+  background-image: url(imagenes/va.jpg);
+  animation: principal 15s infinite;
+}
+@keyframes principal {
+  from {left: 3px;}
+  to {left: 300px;}
+} 
+
+a.two:visited {color: white;}
+a.two:hover {font-size:150%;}
+a.two:hover{color: #00FF00;}
